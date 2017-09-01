@@ -7,7 +7,7 @@
   display: flex; }
 
 html {
-  background: #f5705c; }
+  background: white; }
 
 html, body {
   margin: 0;
@@ -18,7 +18,7 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 a {
-  color: #f5705c;
+  color: white;
   text-decoration: none; }
 
 a:hover {
@@ -71,7 +71,7 @@ p, address, label, ul {
 .hero {
   color: #ffffff;
   text-align: center;
-  background: #f5705c no-repeat center;
+  background: white no-repeat center;
   background-size: cover;
   position: relative; }
   .hero h2 {
@@ -337,15 +337,15 @@ input[type=submit] {
   color: #fff;
   text-decoration: none;
   padding: 15px 30px;
-  background: #f5705c;
+  background: white;
   border-radius: 3px;
-  border: 1px solid #f89a8c;
+  border: 1px solid white;
   -webkit-appearance: none; }
 
 .button a:hover,
 .button button:hover,
 input[type=submit]:hover {
-  background: #f2462c;
+  background: #e6e6e6;
   cursor: pointer; }
 
 .button a:active,
@@ -362,7 +362,7 @@ input[type=submit]:active {
 
 .button.alt a:hover {
   background: #fff;
-  color: #f5705c; }
+  color: white; }
 
 textarea, input, button, select {
   font-family: inherit;
@@ -412,7 +412,7 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, tex
 
 @media (max-width: 849px) {
   .nav-open nav {
-    background: #f5705c;
+    background: white;
     border: 0;
     z-index: 2; }
     .nav-open nav a {
@@ -420,7 +420,7 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, tex
 header {
   color: #fff;
   padding: 20px 0;
-  background: #f5705c;
+  background: white;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
   position: relative; }
   header a {
@@ -559,7 +559,7 @@ footer {
   padding: 50px 0 50px 0;
   font-size: 1.1rem;
   position: relative;
-  background: #f5705c;
+  background: white;
   color: #fff; }
   footer .copyright {
     font-size: .9rem;

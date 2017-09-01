@@ -28,26 +28,28 @@
 		<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
 	</head>
 	<body>
-		<header>
+		<!--<header>
 			<div class="container">
 				<div class="company-name"><a href="{{ site.baseurl }}/">{% include logo.html %} <span>{{ site.title }}</span></a></div>
 				{% include navigation.html %}
 			</div>
-		</header>
+		</header>-->
 
 		<section class="hero">
-			<div class="text-container">
+			<img src="/siteicon.png">
+			<!--<div class="text-container">
 				{% if page.hero %}
 					<h2>{{ page.hero }}</h2>
 				{% elsif page.name %}
 					<h2>{{ page.name }}</h2>
 				{% endif %}
-			</div>
+			</div>-->
 		</section>
 
 		{{ content }}
+		<!--<div style="text-align:center"><p>Venmo @jerrybai</p></div>-->
 		<footer>
-			<div class="container">
+			<!--<div class="container">
 				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Edit footer</a></p>
 				<div class="footer-columns">
 					{% for column in site.data.footer %}
@@ -65,7 +67,7 @@
 					{% endfor %}
 				</div>
 				<p class="copyright">&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
-			</div>
+			</div>-->
 		</footer>
 		<script>
 			document.getElementById("open-nav").onclick = function () {
